@@ -77,3 +77,20 @@ nav .pogas button:hover {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.button-shop {
+  background-color: #553A41;
+  color: white;
+  border: none;
+  margin: 5px 8px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 6px;
+  
+}
+
+.Nocenoti-Produkti {
+  
+            
+}

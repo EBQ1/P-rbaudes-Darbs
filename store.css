@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #E6E8E6;
+  color: #191919;
+  font-size: 16px;
+  line-height: 1,6;
+}
+
+header {
+  background: #FFFFFF;
+  border-bottom: 4px solid #553A41;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header div img {
+  height: 100px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+nav .pogas {
+  display: flex;
+  gap: 1rem;
+}
+
+nav .pogas a {
+    text-decoration: none;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  color: #553A41;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  
+}
+
+nav .pogas a:hover {
+  background: #553A41;
+  color: #E6E8E6;
+}
+
+nav .pogas button {
+  transition: 1s;
+}
+
+.meklēšanas-filtrs {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.meklēšanas-josla input {
+    padding: 10px;
+    width: 700px;
+    border-radius: 6px;
+    border: 1px solid #553A41;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+   padding: 20px 60px;
+  background: #553A41;
+  color: #E6E8E6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.OAV {
+  display: flex;
+  justify-content: flex-end;
+      
+}

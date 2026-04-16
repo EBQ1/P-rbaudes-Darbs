@@ -9,12 +9,12 @@ body {
   background: #E6E8E6;
   color: #191919;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1,6;
 }
 
 header {
   background: #FFFFFF;
-  border-bottom: 2px solid #BB7E8C;
+  border-bottom: 4px solid #553A41;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,6 +54,9 @@ nav .pogas button:hover {
   color: #E6E8E6;
 }
 
+nav .pogas button {
+  transition: 1s;
+}
 
 .hero {
     position: relative;
@@ -78,19 +81,114 @@ nav .pogas button:hover {
     color: white;
 }
 
-.button-shop {
-  background-color: #553A41;
+.button-shop:hover {
+  background: #553A41;
   color: white;
+}
+
+.button-shop {
+  
   border: none;
   margin: 5px 8px;
   padding: 10px 15px;
   text-align: center;
   font-size: 13px;
   border-radius: 6px;
+    
+}
+
+
+
+div.Nocenoti-Produkti1,
+div.Nocenoti-Produkti2,
+div.Nocenoti-Produkti3,
+div.Nocenoti-Produkti4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 24%;
+  vertical-align: top;
+  background: #E6E8E6;
+  padding: 12px;
+  height: auto;
+}
+div.Nocenoti-Produkti1 img,
+div.Nocenoti-Produkti2 img,
+div.Nocenoti-Produkti3 img,
+div.Nocenoti-Produkti4 img {
+  width: 100%;
+  aspect-ratio: 4/4;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+}
+
+div.Nocenoti-Produkti1 section,
+div.Nocenoti-Produkti2 section,
+div.Nocenoti-Produkti3 section,
+div.Nocenoti-Produkti4 section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+
+div.Jauni-produkti5,
+div.Jauni-produkti6,
+div.Jauni-produkti7,
+div.Jauni-produkti8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 24%;
+  vertical-align: top;
+  background: #E6E8E6;
+  padding: 12px;
+  height: auto;
+}
+
+div.Jauni-produkti5 img,
+div.Jauni-produkti6 img,
+div.Jauni-produkti7 img,
+div.Jauni-produkti8 img {
+  width: 100%;
+  aspect-ratio: 4/4;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.info-par-veikalu {
+   padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #E6E8E6;
   
 }
 
-.Nocenoti-Produkti {
-  
-            
+.footer {
+   padding: 20px 60px;
+  background: #553A41;
+  color: #E6E8E6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-left {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #553A41;
+}
+
+
+.OAV {
+  display: flex;
+  justify-content: flex-end;
+      
 }
